@@ -1,13 +1,18 @@
 {
-  "name": "jest-cases",
+  "name": "jest-in-case",
   "version": "1.0.0",
-  "description": "Organize variations of the same test into config",
+  "description": "Jest utility for creating variantions of the same test",
   "main": "index.js",
-  "repository": "Thinkmill/jest-cases",
+  "repository": "Thinkmill/jest-in-case",
   "author": "James Kyle <me@thejameskyle.com>",
   "license": "MIT",
   "files": [
     "index.js"
+  ],
+  "keywords": [
+    "jest",
+    "test",
+    "testing"
   ],
   "scripts": {
     "test": "jest"

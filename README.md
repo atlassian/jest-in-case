@@ -1,21 +1,49 @@
-# jest-cases
+# jest-in-case
 
-> Organize variations of the same test into config
+> [Jest](https://facebook.github.io/jest/) utility for creating variantions of
+> the same test
 
-In your tests:
+## Example
 
 ```js
-import cases from 'jest-cases';
+import { add, subtract } from './math';
+import cases from 'jest-in-case';
 
+cases('add(augend, addend)', opts => {
+  expect(add(opts.augend, opts.addend)).toBe(opts.total);
+}, [
+  { name: '1 + 1 = 2', augend: 1, addend: 1, total: 2 },
+  { name: '2 + 1 = 3', augend: 2, addend: 1, total: 3 },
+  { name: '3 + 1 = 4', augend: 3, addend: 1, total: 4 },
+]);
+```
+
+## Installation
+
+```sh
+yarn add --dev jest-in-case
+```
+
+## Usage
+
+In your [Jest](https://facebook.github.io/jest/) tests, import `cases` from
+`jest-in-case`.
+
+```js
+import cases from 'jest-in-case';
+// or
+const cases = require('jest-in-case');
+```
+
+Then you can call `cases` with a `title`, a `tester`, and some `testCases`.
+
+```js
 cases(title, tester, testCases);
 ```
 
 `cases` can either be an array of objects with a `name` property:
 
 ```js
-import { add, subtract } from './math';
-import cases from 'jest-cases';
-
 cases('add(augend, addend)', opts => {
   expect(add(opts.augend, opts.addend)).toBe(opts.total);
 }, [
