@@ -1,6 +1,6 @@
 {
   "name": "jest-cases",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Organize variations of the same test into config",
   "main": "index.js",
   "repository": "Thinkmill/jest-cases",
