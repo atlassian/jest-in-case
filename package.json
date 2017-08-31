@@ -1,0 +1,19 @@
+{
+  "name": "jest-cases",
+  "version": "0.0.0",
+  "description": "Organize variations of the same test into config",
+  "main": "index.js",
+  "repository": "Thinkmill/jest-cases",
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.53.1",
+    "jest": "^20.0.4"
+  }
+}
