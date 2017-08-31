@@ -1,6 +1,6 @@
 # jest-in-case
 
-> [Jest](https://facebook.github.io/jest/) utility for creating variantions of
+> [Jest](https://facebook.github.io/jest/) utility for creating variations of
 > the same test
 
 ## Example
