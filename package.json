@@ -1,6 +1,6 @@
 {
   "name": "jest-in-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jest utility for creating variations of the same test",
   "main": "index.js",
   "repository": "Thinkmill/jest-in-case",
