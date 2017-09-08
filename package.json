@@ -6,6 +6,9 @@
   "repository": "Thinkmill/jest-in-case",
   "author": "James Kyle <me@thejameskyle.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
   "files": [
     "index.js"
   ],

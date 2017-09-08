@@ -1,3 +1,5 @@
+'use strict';
+
 // @flow
 const cases = require('./');
 
