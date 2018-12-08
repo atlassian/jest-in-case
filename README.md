@@ -41,7 +41,7 @@ Then you can call `cases` with a `title`, a `tester`, and some `testCases`.
 cases(title, tester, testCases);
 ```
 
-`cases` can either be an array of objects with a `name` property:
+`testCases` can either be an array of objects with a `name` property:
 
 ```js
 cases('add(augend, addend)', opts => {
