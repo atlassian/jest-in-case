@@ -3,7 +3,7 @@
 > [Jest](https://facebook.github.io/jest/) utility for creating variations of
 > the same test
 
-## Example
+## Example 
 
 ```js
 import { add, subtract } from './math';
