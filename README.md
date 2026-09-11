@@ -65,7 +65,7 @@ cases('subtract(minuend, subtrahend)', opts => {
 });
 ```
 
-Inside of a test case you can put whatever properties you want, except for
+Inside of a test-case you can put whatever properties you want, except for
 `name`, `only`, or `skip`:
 
 ```js
